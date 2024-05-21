@@ -1,0 +1,30 @@
+.sidebar {
+    color: white;
+    position: fixed;
+    top:50px;
+    bottom: 0;
+    left: 0;
+    width: 95px;
+    z-index: 200;
+    background-color: white;
+}
+.box {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.sidebar-logo {
+    width: 40px;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+.sidebar-text {
+    color: black;
+    font-size: 13px;
+}
